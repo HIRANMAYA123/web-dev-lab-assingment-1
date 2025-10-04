@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio</title>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section id="hero">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Hi! I am a web developer passionate about creating beautiful and functional websites.</p>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Profile Image" width="120">
+      <p>I am passionate about learning web development and building creative projects.</p>
+    </section>
+
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><article><h3>Project One</h3><p>A simple todo app built using vanilla JavaScript.</p></article></li>
+        <li><article><h3>Project Two</h3><p>A responsive personal blog website with clean design.</p></article></li>
+        <li><article><h3>Project Three</h3><p>An e-commerce site prototype using React and Firebase.</p></article></li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <table border="1" cellpadding="5">
+        <tr>
+          <th>Skill</th>
+          <th>Level</th>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>Beginner</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>Beginner</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>Learning</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" placeholder="Enter your message"></textarea><br><br>
+
+        <input type="submit" value="Send">
+      </form>
+    </section>
+  </main>
+
+</body>
+</html>
